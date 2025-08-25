@@ -8,13 +8,13 @@
 7 silly config load:file:C:\Users\TheTruth\AppData\Roaming\npm\etc\npmrc
 8 verbose title npm run build
 9 verbose argv "run" "build"
-10 verbose logfile logs-max:10 dir:E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T21_20_32_668Z-
-11 verbose logfile E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T21_20_32_668Z-debug-0.log
+10 verbose logfile logs-max:10 dir:E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T21_30_10_220Z-
+11 verbose logfile E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T21_30_10_220Z-debug-0.log
 12 silly logfile start cleaning logs, removing 1 files
 13 silly logfile done cleaning log files
 14 verbose cwd E:\Projects\React\Dogi Teknik Destek\frontend
 15 verbose os Windows_NT 10.0.26100
 16 verbose node v24.4.1
 17 verbose npm  v11.5.2
-18 verbose exit 1
-19 verbose code 1
+18 verbose exit 0
+19 info ok
