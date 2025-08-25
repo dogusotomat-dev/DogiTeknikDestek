@@ -1,0 +1,262 @@
+0 verbose cli E:\Program Files\nodejs\node.exe C:\Users\TheTruth\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.2
+2 info using node@v24.4.1
+3 silly config load:file:C:\Users\TheTruth\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\Projects\React\Dogi Teknik Destek\frontend\.npmrc
+5 warn Unknown project config "ci". This will stop working in the next major version of npm.
+6 silly config load:file:C:\Users\TheTruth\.npmrc
+7 silly config load:file:C:\Users\TheTruth\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm install
+9 verbose argv "install"
+10 verbose logfile logs-max:10 dir:E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T20_55_27_550Z-
+11 verbose logfile E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T20_55_27_550Z-debug-0.log
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 silly fetch manifest @craco/craco@^7.1.0
+16 silly packumentCache full:https://registry.npmjs.org/@craco%2fcraco cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/npm 632ms
+18 http fetch GET 200 https://registry.npmjs.org/@craco%2fcraco 1405ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/@craco%2fcraco set size:undefined disposed:false
+20 silly fetch manifest react-scripts@5.0.1
+21 silly packumentCache full:https://registry.npmjs.org/react-scripts cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/react-scripts 53ms (cache miss)
+23 silly packumentCache full:https://registry.npmjs.org/react-scripts set size:undefined disposed:false
+24 silly fetch manifest react@^19.1.1
+25 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/react 97ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+28 silly fetch manifest typescript@^3.2.1 || ^4
+29 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/typescript 224ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/typescript set size:undefined disposed:false
+32 silly placeDep ROOT @craco/craco@7.1.0 OK for: frontend@0.1.0 want: ^7.1.0
+33 silly fetch manifest cosmiconfig-typescript-loader@^1.0.0
+34 silly packumentCache full:https://registry.npmjs.org/cosmiconfig-typescript-loader cache-miss
+35 silly fetch manifest webpack-merge@^5.8.0
+36 silly packumentCache full:https://registry.npmjs.org/webpack-merge cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/webpack-merge 30ms (cache miss)
+38 silly packumentCache full:https://registry.npmjs.org/webpack-merge set size:undefined disposed:false
+39 http fetch GET 200 https://registry.npmjs.org/cosmiconfig-typescript-loader 89ms (cache miss)
+40 silly packumentCache full:https://registry.npmjs.org/cosmiconfig-typescript-loader set size:undefined disposed:false
+41 silly fetch manifest @types/node@*
+42 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+43 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 136ms (cache miss)
+44 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:undefined disposed:false
+45 silly fetch manifest typescript@>=3
+46 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+47 http cache https://registry.npmjs.org/typescript 26ms (cache hit)
+48 silly packumentCache full:https://registry.npmjs.org/typescript set size:14590075 disposed:false
+49 silly placeDep ROOT cosmiconfig-typescript-loader@1.0.9 OK for: @craco/craco@7.1.0 want: ^1.0.0
+50 silly placeDep ROOT webpack-merge@5.10.0 OK for: @craco/craco@7.1.0 want: ^5.8.0
+51 silly fetch manifest ts-node@^10.7.0
+52 silly packumentCache full:https://registry.npmjs.org/ts-node cache-miss
+53 silly fetch manifest flat@^5.0.2
+54 silly packumentCache full:https://registry.npmjs.org/flat cache-miss
+55 silly fetch manifest wildcard@^2.0.0
+56 silly packumentCache full:https://registry.npmjs.org/wildcard cache-miss
+57 silly fetch manifest clone-deep@^4.0.1
+58 silly packumentCache full:https://registry.npmjs.org/clone-deep cache-miss
+59 http fetch GET 200 https://registry.npmjs.org/flat 34ms (cache miss)
+60 silly packumentCache full:https://registry.npmjs.org/flat set size:undefined disposed:false
+61 http fetch GET 200 https://registry.npmjs.org/clone-deep 63ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/clone-deep set size:undefined disposed:false
+63 http fetch GET 200 https://registry.npmjs.org/ts-node 77ms (cache miss)
+64 silly packumentCache full:https://registry.npmjs.org/ts-node set size:undefined disposed:false
+65 http fetch GET 200 https://registry.npmjs.org/wildcard 81ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/wildcard set size:undefined disposed:false
+67 silly fetch manifest @swc/core@>=1.2.50
+68 silly packumentCache full:https://registry.npmjs.org/@swc%2fcore cache-miss
+69 http fetch GET 200 https://registry.npmjs.org/@swc%2fcore 86ms (cache miss)
+70 silly packumentCache full:https://registry.npmjs.org/@swc%2fcore set size:undefined disposed:false
+71 silly fetch manifest @swc/helpers@>=0.5.17
+72 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers cache-miss
+73 http fetch GET 200 https://registry.npmjs.org/@swc%2fhelpers 67ms (cache miss)
+74 silly packumentCache full:https://registry.npmjs.org/@swc%2fhelpers set size:undefined disposed:false
+75 silly fetch manifest @swc/wasm@>=1.2.50
+76 silly packumentCache full:https://registry.npmjs.org/@swc%2fwasm cache-miss
+77 http fetch GET 200 https://registry.npmjs.org/@swc%2fwasm 71ms (cache miss)
+78 silly packumentCache full:https://registry.npmjs.org/@swc%2fwasm set size:undefined disposed:false
+79 silly placeDep ROOT ts-node@10.9.2 OK for: cosmiconfig-typescript-loader@1.0.9 want: ^10.7.0
+80 silly fetch manifest yn@3.1.1
+81 silly packumentCache full:https://registry.npmjs.org/yn cache-miss
+82 silly fetch manifest arg@^4.1.0
+83 silly packumentCache full:https://registry.npmjs.org/arg cache-miss
+84 silly fetch manifest diff@^4.0.1
+85 silly packumentCache full:https://registry.npmjs.org/diff cache-miss
+86 silly fetch manifest acorn-walk@^8.1.1
+87 silly packumentCache full:https://registry.npmjs.org/acorn-walk cache-miss
+88 silly fetch manifest make-error@^1.1.1
+89 silly packumentCache full:https://registry.npmjs.org/make-error cache-miss
+90 silly fetch manifest create-require@^1.1.0
+91 silly packumentCache full:https://registry.npmjs.org/create-require cache-miss
+92 silly fetch manifest @tsconfig/node10@^1.0.7
+93 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode10 cache-miss
+94 silly fetch manifest @tsconfig/node12@^1.0.7
+95 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode12 cache-miss
+96 silly fetch manifest @tsconfig/node14@^1.0.0
+97 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode14 cache-miss
+98 silly fetch manifest @tsconfig/node16@^1.0.2
+99 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode16 cache-miss
+100 silly fetch manifest v8-compile-cache-lib@^3.0.1
+101 silly packumentCache full:https://registry.npmjs.org/v8-compile-cache-lib cache-miss
+102 http fetch GET 200 https://registry.npmjs.org/acorn-walk 49ms (cache miss)
+103 silly packumentCache full:https://registry.npmjs.org/acorn-walk set size:undefined disposed:false
+104 silly fetch manifest @cspotcode/source-map-support@^0.8.0
+105 silly packumentCache full:https://registry.npmjs.org/@cspotcode%2fsource-map-support cache-miss
+106 http fetch GET 200 https://registry.npmjs.org/yn 50ms (cache miss)
+107 silly packumentCache full:https://registry.npmjs.org/yn set size:undefined disposed:false
+108 http fetch GET 200 https://registry.npmjs.org/arg 52ms (cache miss)
+109 silly packumentCache full:https://registry.npmjs.org/arg set size:undefined disposed:false
+110 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache-lib 68ms (cache miss)
+111 silly packumentCache full:https://registry.npmjs.org/v8-compile-cache-lib set size:undefined disposed:false
+112 http fetch GET 200 https://registry.npmjs.org/create-require 70ms (cache miss)
+113 silly packumentCache full:https://registry.npmjs.org/create-require set size:undefined disposed:false
+114 http fetch GET 200 https://registry.npmjs.org/make-error 72ms (cache miss)
+115 silly packumentCache full:https://registry.npmjs.org/make-error set size:undefined disposed:false
+116 http fetch GET 200 https://registry.npmjs.org/@cspotcode%2fsource-map-support 41ms (cache miss)
+117 silly packumentCache full:https://registry.npmjs.org/@cspotcode%2fsource-map-support set size:undefined disposed:false
+118 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode14 91ms (cache miss)
+119 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode14 set size:undefined disposed:false
+120 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode12 101ms (cache miss)
+121 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode12 set size:undefined disposed:false
+122 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode16 102ms (cache miss)
+123 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode16 set size:undefined disposed:false
+124 http fetch GET 200 https://registry.npmjs.org/@tsconfig%2fnode10 107ms (cache miss)
+125 silly packumentCache full:https://registry.npmjs.org/@tsconfig%2fnode10 set size:undefined disposed:false
+126 http fetch GET 200 https://registry.npmjs.org/diff 112ms (cache miss)
+127 silly packumentCache full:https://registry.npmjs.org/diff set size:undefined disposed:false
+128 silly placeDep ROOT @cspotcode/source-map-support@0.8.1 OK for: ts-node@10.9.2 want: ^0.8.0
+129 silly placeDep ROOT @tsconfig/node10@1.0.11 OK for: ts-node@10.9.2 want: ^1.0.7
+130 silly placeDep ROOT @tsconfig/node12@1.0.11 OK for: ts-node@10.9.2 want: ^1.0.7
+131 silly placeDep ROOT @tsconfig/node14@1.0.3 OK for: ts-node@10.9.2 want: ^1.0.0
+132 silly placeDep ROOT @tsconfig/node16@1.0.4 OK for: ts-node@10.9.2 want: ^1.0.2
+133 silly placeDep node_modules/ts-node acorn-walk@8.3.4 OK for: ts-node@10.9.2 want: ^8.1.1
+134 silly placeDep node_modules/ts-node arg@4.1.3 OK for: ts-node@10.9.2 want: ^4.1.0
+135 silly placeDep ROOT create-require@1.1.1 OK for: ts-node@10.9.2 want: ^1.1.0
+136 silly placeDep ROOT diff@4.0.2 OK for: ts-node@10.9.2 want: ^4.0.1
+137 silly placeDep ROOT make-error@1.3.6 OK for: ts-node@10.9.2 want: ^1.1.1
+138 silly placeDep ROOT v8-compile-cache-lib@3.0.1 OK for: ts-node@10.9.2 want: ^3.0.1
+139 silly placeDep ROOT yn@3.1.1 OK for: ts-node@10.9.2 want: 3.1.1
+140 silly fetch manifest @jridgewell/trace-mapping@0.3.9
+141 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping cache-miss
+142 http fetch GET 200 https://registry.npmjs.org/@jridgewell%2ftrace-mapping 47ms (cache miss)
+143 silly packumentCache full:https://registry.npmjs.org/@jridgewell%2ftrace-mapping set size:undefined disposed:false
+144 silly placeDep node_modules/@cspotcode/source-map-support @jridgewell/trace-mapping@0.3.9 OK for: @cspotcode/source-map-support@0.8.1 want: 0.3.9
+145 silly placeDep ROOT clone-deep@4.0.1 OK for: webpack-merge@5.10.0 want: ^4.0.1
+146 silly placeDep ROOT flat@5.0.2 OK for: webpack-merge@5.10.0 want: ^5.0.2
+147 silly placeDep ROOT wildcard@2.0.1 OK for: webpack-merge@5.10.0 want: ^2.0.0
+148 silly fetch manifest is-plain-object@^2.0.4
+149 silly packumentCache full:https://registry.npmjs.org/is-plain-object cache-miss
+150 silly fetch manifest shallow-clone@^3.0.0
+151 silly packumentCache full:https://registry.npmjs.org/shallow-clone cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/is-plain-object 28ms (cache miss)
+153 silly packumentCache full:https://registry.npmjs.org/is-plain-object set size:undefined disposed:false
+154 http fetch GET 200 https://registry.npmjs.org/shallow-clone 61ms (cache miss)
+155 silly packumentCache full:https://registry.npmjs.org/shallow-clone set size:undefined disposed:false
+156 silly placeDep ROOT is-plain-object@2.0.4 OK for: clone-deep@4.0.1 want: ^2.0.4
+157 silly placeDep ROOT shallow-clone@3.0.1 OK for: clone-deep@4.0.1 want: ^3.0.0
+158 silly fetch manifest isobject@^3.0.1
+159 silly packumentCache full:https://registry.npmjs.org/isobject cache-miss
+160 http fetch GET 200 https://registry.npmjs.org/isobject 109ms (cache miss)
+161 silly packumentCache full:https://registry.npmjs.org/isobject set size:undefined disposed:false
+162 silly placeDep ROOT isobject@3.0.1 OK for: is-plain-object@2.0.4 want: ^3.0.1
+163 silly reify moves {}
+164 http cache isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 0ms (cache hit)
+165 http cache shallow-clone@https://registry.npmjs.org/shallow-clone/-/shallow-clone-3.0.1.tgz 0ms (cache hit)
+166 http cache is-plain-object@https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz 0ms (cache hit)
+167 http cache flat@https://registry.npmjs.org/flat/-/flat-5.0.2.tgz 0ms (cache hit)
+168 http cache wildcard@https://registry.npmjs.org/wildcard/-/wildcard-2.0.1.tgz 0ms (cache hit)
+169 http cache clone-deep@https://registry.npmjs.org/clone-deep/-/clone-deep-4.0.1.tgz 0ms (cache hit)
+170 http cache yn@https://registry.npmjs.org/yn/-/yn-3.1.1.tgz 0ms (cache hit)
+171 http cache make-error@https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz 0ms (cache hit)
+172 http cache diff@https://registry.npmjs.org/diff/-/diff-4.0.2.tgz 0ms (cache hit)
+173 http cache create-require@https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz 0ms (cache hit)
+174 http cache v8-compile-cache-lib@https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz 0ms (cache hit)
+175 http cache @tsconfig/node14@https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz 0ms (cache hit)
+176 http cache @cspotcode/source-map-support@https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz 0ms (cache hit)
+177 http cache @tsconfig/node10@https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.11.tgz 0ms (cache hit)
+178 http cache @tsconfig/node16@https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz 0ms (cache hit)
+179 http cache @tsconfig/node12@https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz 0ms (cache hit)
+180 http cache ts-node@https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz 0ms (cache hit)
+181 http cache webpack-merge@https://registry.npmjs.org/webpack-merge/-/webpack-merge-5.10.0.tgz 0ms (cache hit)
+182 http cache cosmiconfig-typescript-loader@https://registry.npmjs.org/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-1.0.9.tgz 0ms (cache hit)
+183 http cache arg@https://registry.npmjs.org/arg/-/arg-4.1.3.tgz 0ms (cache hit)
+184 http cache acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.4.tgz 0ms (cache hit)
+185 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz 0ms (cache hit)
+186 http cache @craco/craco@https://registry.npmjs.org/@craco/craco/-/craco-7.1.0.tgz 0ms (cache hit)
+187 silly tarball no local data for isobject@https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz. Extracting by manifest.
+188 silly tarball no local data for shallow-clone@https://registry.npmjs.org/shallow-clone/-/shallow-clone-3.0.1.tgz. Extracting by manifest.
+189 silly tarball no local data for is-plain-object@https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz. Extracting by manifest.
+190 silly tarball no local data for flat@https://registry.npmjs.org/flat/-/flat-5.0.2.tgz. Extracting by manifest.
+191 silly tarball no local data for wildcard@https://registry.npmjs.org/wildcard/-/wildcard-2.0.1.tgz. Extracting by manifest.
+192 silly tarball no local data for clone-deep@https://registry.npmjs.org/clone-deep/-/clone-deep-4.0.1.tgz. Extracting by manifest.
+193 silly tarball no local data for yn@https://registry.npmjs.org/yn/-/yn-3.1.1.tgz. Extracting by manifest.
+194 silly tarball no local data for make-error@https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz. Extracting by manifest.
+195 silly tarball no local data for diff@https://registry.npmjs.org/diff/-/diff-4.0.2.tgz. Extracting by manifest.
+196 silly tarball no local data for create-require@https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz. Extracting by manifest.
+197 silly tarball no local data for v8-compile-cache-lib@https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz. Extracting by manifest.
+198 silly tarball no local data for @tsconfig/node14@https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz. Extracting by manifest.
+199 silly tarball no local data for @cspotcode/source-map-support@https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz. Extracting by manifest.
+200 silly tarball no local data for @tsconfig/node10@https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.11.tgz. Extracting by manifest.
+201 silly tarball no local data for @tsconfig/node16@https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz. Extracting by manifest.
+202 silly tarball no local data for @tsconfig/node12@https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz. Extracting by manifest.
+203 silly tarball no local data for ts-node@https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz. Extracting by manifest.
+204 silly tarball no local data for webpack-merge@https://registry.npmjs.org/webpack-merge/-/webpack-merge-5.10.0.tgz. Extracting by manifest.
+205 silly tarball no local data for cosmiconfig-typescript-loader@https://registry.npmjs.org/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-1.0.9.tgz. Extracting by manifest.
+206 silly tarball no local data for arg@https://registry.npmjs.org/arg/-/arg-4.1.3.tgz. Extracting by manifest.
+207 silly tarball no local data for acorn-walk@https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.4.tgz. Extracting by manifest.
+208 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz. Extracting by manifest.
+209 silly tarball no local data for @craco/craco@https://registry.npmjs.org/@craco/craco/-/craco-7.1.0.tgz. Extracting by manifest.
+210 http fetch GET 200 https://registry.npmjs.org/shallow-clone/-/shallow-clone-3.0.1.tgz 56ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/make-error/-/make-error-1.3.6.tgz 62ms (cache miss)
+212 http fetch GET 200 https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz 78ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/isobject/-/isobject-3.0.1.tgz 86ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/is-plain-object/-/is-plain-object-2.0.4.tgz 87ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz 95ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/webpack-merge/-/webpack-merge-5.10.0.tgz 97ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/flat/-/flat-5.0.2.tgz 104ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/yn/-/yn-3.1.1.tgz 104ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/clone-deep/-/clone-deep-4.0.1.tgz 114ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/cosmiconfig-typescript-loader/-/cosmiconfig-typescript-loader-1.0.9.tgz 117ms (cache miss)
+221 http fetch GET 200 https://registry.npmjs.org/arg/-/arg-4.1.3.tgz 119ms (cache miss)
+222 http fetch GET 200 https://registry.npmjs.org/wildcard/-/wildcard-2.0.1.tgz 123ms (cache miss)
+223 http fetch GET 200 https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.4.tgz 124ms (cache miss)
+224 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node12/-/node12-1.0.11.tgz 125ms (cache miss)
+225 http fetch GET 200 https://registry.npmjs.org/diff/-/diff-4.0.2.tgz 154ms (cache miss)
+226 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node10/-/node10-1.0.11.tgz 155ms (cache miss)
+227 http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.9.tgz 159ms (cache miss)
+228 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node14/-/node14-1.0.3.tgz 172ms (cache miss)
+229 http fetch GET 200 https://registry.npmjs.org/@tsconfig/node16/-/node16-1.0.4.tgz 204ms (cache miss)
+230 http fetch GET 200 https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz 215ms (cache miss)
+231 http fetch GET 200 https://registry.npmjs.org/@craco/craco/-/craco-7.1.0.tgz 234ms (cache miss)
+232 http fetch GET 200 https://registry.npmjs.org/ts-node/-/ts-node-10.9.2.tgz 244ms (cache miss)
+233 silly ADD node_modules/isobject
+234 silly ADD node_modules/shallow-clone
+235 silly ADD node_modules/is-plain-object
+236 silly ADD node_modules/wildcard
+237 silly ADD node_modules/flat
+238 silly ADD node_modules/clone-deep
+239 silly ADD node_modules/yn
+240 silly ADD node_modules/v8-compile-cache-lib
+241 silly ADD node_modules/make-error
+242 silly ADD node_modules/diff
+243 silly ADD node_modules/create-require
+244 silly ADD node_modules/@tsconfig/node16
+245 silly ADD node_modules/@tsconfig/node14
+246 silly ADD node_modules/@tsconfig/node12
+247 silly ADD node_modules/@tsconfig/node10
+248 silly ADD node_modules/@cspotcode/source-map-support
+249 silly ADD node_modules/@cspotcode/source-map-support/node_modules/@jridgewell/trace-mapping
+250 silly ADD node_modules/ts-node
+251 silly ADD node_modules/ts-node/node_modules/arg
+252 silly ADD node_modules/ts-node/node_modules/acorn-walk
+253 silly ADD node_modules/webpack-merge
+254 silly ADD node_modules/cosmiconfig-typescript-loader
+255 silly ADD node_modules/@craco/craco
+256 verbose cwd E:\Projects\React\Dogi Teknik Destek\frontend
+257 verbose os Windows_NT 10.0.26100
+258 verbose node v24.4.1
+259 verbose npm  v11.5.2
+260 verbose exit 0
+261 info ok
