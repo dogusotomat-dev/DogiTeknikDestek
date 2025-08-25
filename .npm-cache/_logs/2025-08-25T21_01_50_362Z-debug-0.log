@@ -1,0 +1,174 @@
+0 verbose cli E:\Program Files\nodejs\node.exe C:\Users\TheTruth\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.2
+2 info using node@v24.4.1
+3 silly config load:file:C:\Users\TheTruth\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\Projects\React\Dogi Teknik Destek\frontend\.npmrc
+5 warn Unknown project config "ci". This will stop working in the next major version of npm.
+6 silly config load:file:C:\Users\TheTruth\.npmrc
+7 silly config load:file:C:\Users\TheTruth\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm install
+9 verbose argv "install"
+10 verbose logfile logs-max:10 dir:E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T21_01_50_362Z-
+11 verbose logfile E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T21_01_50_362Z-debug-0.log
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 silly reify mark retired [
+15 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@craco\\craco',
+15 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\craco',
+15 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\craco.cmd',
+15 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\craco.ps1'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@cspotcode\\source-map-support'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\node10'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\node12'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\node14'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\node16'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\clone-deep'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\cosmiconfig-typescript-loader'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\create-require'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\diff'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\flat',
+25 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\flat',
+25 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\flat.cmd',
+25 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\flat.ps1'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\is-plain-object'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\isobject'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\make-error'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\shallow-clone'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\ts-node',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node.cmd',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node.ps1',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-cwd',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-cwd.cmd',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-cwd.ps1',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-esm',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-esm.cmd',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-esm.ps1',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-script',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-script.cmd',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-script.ps1',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-transpile-only',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-transpile-only.cmd',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-transpile-only.ps1',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-script',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-script.cmd',
+30 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-script.ps1'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\v8-compile-cache-lib'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\webpack-merge'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\wildcard'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\yn'
+34 silly reify ]
+35 silly reify moves {
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@craco\\craco': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@craco\\.craco-BC0CVGKe',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\craco': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.craco-KUkgUqj3',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\craco.cmd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.craco.cmd-kffZo7qS',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\craco.ps1': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.craco.ps1-xSsRgIw1',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@cspotcode\\source-map-support': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@cspotcode\\.source-map-support-c9GrlpvP',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\node10': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\.node10-FuPB0wBy',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\node12': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\.node12-BGecQVdR',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\node14': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\.node14-MJ6aAs0a',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\node16': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\@tsconfig\\.node16-glmQ2b5A',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\clone-deep': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.clone-deep-ToM2uEXH',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\cosmiconfig-typescript-loader': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.cosmiconfig-typescript-loader-ZDerTL2Z',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\create-require': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.create-require-MPTcrZ3g',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\diff': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.diff-wrYuhSA5',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\flat': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.flat-zx2RVfBy',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\flat': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.flat-SrXoT1TR',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\flat.cmd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.flat.cmd-9iBi86Gp',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\flat.ps1': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.flat.ps1-0NdhgoMY',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\is-plain-object': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.is-plain-object-jY0VBg6S',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\isobject': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.isobject-ifG9YkuO',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\make-error': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.make-error-4Xr2JXjg',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\shallow-clone': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.shallow-clone-EOZiMYNw',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\ts-node': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.ts-node-MJLCOEnL',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-jMB5Ow2C',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node.cmd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node.cmd-ARfKd7Hm',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node.ps1': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node.ps1-PbYSIAQz',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-cwd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-cwd-tqPe5d14',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-cwd.cmd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-cwd.cmd-WlQkE3lB',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-cwd.ps1': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-cwd.ps1-g27wPrWn',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-esm': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-esm-zRwDOozQ',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-esm.cmd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-esm.cmd-cUKRgt2I',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-esm.ps1': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-esm.ps1-ydifl3Zc',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-script': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-script-lXnSWnE6',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-script.cmd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-script.cmd-Q0meFnbp',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-script.ps1': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-script.ps1-9zqAs6DN',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-transpile-only': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-transpile-only-BqXKNh1I',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-transpile-only.cmd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-transpile-only.cmd-PP5X4kY3',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-node-transpile-only.ps1': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-node-transpile-only.ps1-W5M3WurN',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-script': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-script-ZRrO0pzk',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-script.cmd': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-script.cmd-vduMOka9',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\ts-script.ps1': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.bin\\.ts-script.ps1-JVwqP02d',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\v8-compile-cache-lib': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.v8-compile-cache-lib-cxELb5LW',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\webpack-merge': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.webpack-merge-PCxt49JI',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\wildcard': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.wildcard-5ElYw2zZ',
+35 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\yn': 'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\.yn-j2uJn5xt'
+35 silly reify }
+36 silly REMOVE node_modules/yn
+37 silly REMOVE node_modules/wildcard
+38 silly REMOVE node_modules/webpack-merge
+39 silly REMOVE node_modules/v8-compile-cache-lib
+40 silly REMOVE node_modules/ts-node
+41 silly REMOVE node_modules/ts-node/node_modules/arg
+42 silly REMOVE node_modules/ts-node/node_modules/acorn-walk
+43 silly REMOVE node_modules/shallow-clone
+44 silly REMOVE node_modules/make-error
+45 silly REMOVE node_modules/isobject
+46 silly REMOVE node_modules/is-plain-object
+47 silly REMOVE node_modules/flat
+48 silly REMOVE node_modules/diff
+49 silly REMOVE node_modules/create-require
+50 silly REMOVE node_modules/cosmiconfig-typescript-loader
+51 silly REMOVE node_modules/clone-deep
+52 silly REMOVE node_modules/@tsconfig/node16
+53 silly REMOVE node_modules/@tsconfig/node14
+54 silly REMOVE node_modules/@tsconfig/node12
+55 silly REMOVE node_modules/@tsconfig/node10
+56 silly REMOVE node_modules/@cspotcode/source-map-support
+57 silly REMOVE node_modules/@cspotcode/source-map-support/node_modules/@jridgewell/trace-mapping
+58 silly REMOVE node_modules/@craco/craco
+59 verbose cwd E:\Projects\React\Dogi Teknik Destek\frontend
+60 verbose os Windows_NT 10.0.26100
+61 verbose node v24.4.1
+62 verbose npm  v11.5.2
+63 verbose exit 0
+64 info ok
