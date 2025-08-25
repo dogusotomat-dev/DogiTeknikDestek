@@ -1,0 +1,53 @@
+[build]
+  command = "npm ci && npm run build"
+  publish = "build"
+  base = "frontend"
+
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_FLAGS = "--prefer-offline --no-audit"
+
+# Cache ayarları
+[[plugins]]
+  package = "@netlify/plugin-lighthouse"
+
+# Build cache ayarları
+[build.processing]
+  skip_processing = false
+
+# Dependencies cache
+[build.processing.css]
+  bundle = true
+  minify = true
+
+[build.processing.js]
+  bundle = true
+  minify = true
+
+# Redirects (SPA için)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+# Environment variables (build sırasında)
+[context.production.environment]
+  NODE_ENV = "production"
+  CI = "false"
+
+[context.deploy-preview.environment]
+  NODE_ENV = "production"
+  CI = "false"
+
+[context.branch-deploy.environment]
+  NODE_ENV = "production"
+  CI = "false"
