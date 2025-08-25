@@ -1,0 +1,38 @@
+0 verbose cli E:\Program Files\nodejs\node.exe C:\Users\TheTruth\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.5.2
+2 info using node@v24.4.1
+3 silly config load:file:C:\Users\TheTruth\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:E:\Projects\React\Dogi Teknik Destek\frontend\.npmrc
+5 warn Unknown project config "ci". This will stop working in the next major version of npm.
+6 silly config load:file:C:\Users\TheTruth\.npmrc
+7 silly config load:file:C:\Users\TheTruth\AppData\Roaming\npm\etc\npmrc
+8 verbose title npm install @google/generative-ai
+9 verbose argv "install" "@google/generative-ai"
+10 verbose logfile logs-max:10 dir:E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T21_20_24_799Z-
+11 verbose logfile E:\Projects\React\Dogi Teknik Destek\frontend\.npm-cache\_logs\2025-08-25T21_20_24_799Z-debug-0.log
+12 silly logfile start cleaning logs, removing 1 files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly logfile done cleaning log files
+15 silly idealTree buildDeps
+16 silly fetch manifest @google/generative-ai@*
+17 silly packumentCache full:https://registry.npmjs.org/@google%2fgenerative-ai cache-miss
+18 verbose shrinkwrap failed to load node_modules/.package-lock.json missing from node_modules: frontend
+19 http fetch GET 200 https://registry.npmjs.org/@google%2fgenerative-ai 487ms (cache miss)
+20 silly packumentCache full:https://registry.npmjs.org/@google%2fgenerative-ai set size:undefined disposed:false
+21 silly placeDep ROOT @google/generative-ai@0.24.1 OK for: dogi-teknik-destek@1.0.0 want: *
+22 silly reify moves {}
+23 verbose reify failed optional dependency E:\Projects\React\Dogi Teknik Destek\frontend\node_modules\fsevents
+24 silly reify mark deleted [
+24 silly reify   'E:\\Projects\\React\\Dogi Teknik Destek\\frontend\\node_modules\\fsevents'
+24 silly reify ]
+25 http cache @google/generative-ai@https://registry.npmjs.org/@google/generative-ai/-/generative-ai-0.24.1.tgz 0ms (cache hit)
+26 silly tarball no local data for @google/generative-ai@https://registry.npmjs.org/@google/generative-ai/-/generative-ai-0.24.1.tgz. Extracting by manifest.
+27 http fetch GET 200 https://registry.npmjs.org/@google/generative-ai/-/generative-ai-0.24.1.tgz 189ms (cache miss)
+28 silly ADD node_modules/@google/generative-ai
+29 silly ADD node_modules/fsevents
+30 verbose cwd E:\Projects\React\Dogi Teknik Destek\frontend
+31 verbose os Windows_NT 10.0.26100
+32 verbose node v24.4.1
+33 verbose npm  v11.5.2
+34 verbose exit 0
+35 info ok

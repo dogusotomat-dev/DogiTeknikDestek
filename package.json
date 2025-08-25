@@ -1,27 +1,21 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
+  "name": "dogi-teknik-destek",
+  "version": "1.0.0",
   "private": true,
-  "dependencies": {
-    "@emailjs/browser": "^4.4.1",
-    "@google/generative-ai": "^0.24.1",
-    "@tailwindcss/forms": "^0.5.10",
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.6.4",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/user-event": "^13.5.0",
-    "emailjs-com": "^3.2.0",
-    "framer-motion": "^12.23.12",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
+    "start": "react-scripts start",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emailjs/browser": "4.4.1",
+    "@google/generative-ai": "0.24.1",
+    "@tailwindcss/forms": "0.5.10",
+    "framer-motion": "12.23.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
   },
   "eslintConfig": {
     "extends": [
@@ -29,6 +23,8 @@
       "react-app/jest"
     ]
   },
+  "author": "Yağız Mert Bilge, Kutay Kılıç",
+  "license": "MIT",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -42,10 +38,6 @@
     ]
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.7",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.5"
-  },
-  "author": "Yağız Mert Bilge, Kutay Kılıç"
+    "eslint-plugin-react-hooks": "5.2.0"
+  }
 }
