@@ -22,12 +22,10 @@
 ```html
 Subject: {{subject}}
 
-Sevgili Doğuş Otomat Ekibi,
 
 {{message}}
 
-Saygılarımla,
-Dogi AI Teknik Destek Botu
+
 ```
 
 **ÖNEMLİ:** Template'de sadece `{{subject}}` ve `{{message}}` parametrelerini kullanın.
@@ -79,3 +77,4 @@ npm start
 - Template'de sadece gerekli parametreleri kullanın
 - Fazla parametre 422 hatasına neden olur
 - Basit template ile başlayın, sonra geliştirin
+
